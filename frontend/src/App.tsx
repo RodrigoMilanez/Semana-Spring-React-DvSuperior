@@ -9,7 +9,7 @@ import Navbar from "components/Navbar";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter>   
       <Navbar />
       <Routes>
         <Route path="/" element={<Listing />} />
