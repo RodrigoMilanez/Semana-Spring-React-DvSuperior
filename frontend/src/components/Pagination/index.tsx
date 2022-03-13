@@ -1,5 +1,5 @@
 import { ReactComponent as Arrow} from 'assets/img/seta.svg'
-import { MoviePage } from 'Types/movie';
+import { MoviePage } from 'Types/Movie';
 
 type Props = {
     page: MoviePage;

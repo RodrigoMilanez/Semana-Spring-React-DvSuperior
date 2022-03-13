@@ -2,7 +2,7 @@ import axios from 'axios';
 import MovieCard from 'components/MovieCard';
 import Pagination from 'components/Pagination';
 import { useEffect, useState } from 'react';
-import { MoviePage } from 'Types/movie';
+import { MoviePage } from 'Types/Movie';
 import { BASE_URL } from 'utils/requests';
 import './styles.css';
 
